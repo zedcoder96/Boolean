@@ -1,3 +1,5 @@
+/* Generale
+----------------------------------- */
 body {
   font-family: 'Poppins', 'Arial', sans-serif;
   background: url("../img/background.jpg") no-repeat;
@@ -24,6 +26,8 @@ p {
   border-radius: 15px;
 }
 
+/* Header
+----------------------------------- */
 header {
   text-align: center;
   padding-top: 50px;
@@ -41,6 +45,8 @@ header p {
   margin-top: 35px;
 }
 
+/* Nav
+----------------------------------- */
 nav {
   background-color: #00dd00;
   width: 85%;
@@ -53,6 +59,8 @@ nav > button {
   font-weight: bold;
 }
 
+/* Main
+----------------------------------- */
 main {
   margin-top: 15px;
   width: 85%;
@@ -69,14 +77,16 @@ main {
 .medium {background-color: #f5b453;width: 35%;}
 .min {background-color: #be4141;width: 15%;}
 
-
+/* Footer
+----------------------------------- */
 footer {
   color: #fff;
   text-align: center;
   margin-top: 30px;
 }
 
-/*Smartphone e Tablet */
+/* Smartphone & Tablet
+----------------------------------- */
 @media (max-width: 1200px) {
   body {background-position: center;}
   .container {width: 90%}
